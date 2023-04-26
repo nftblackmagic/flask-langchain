@@ -15,7 +15,7 @@ import os
 import nltk
 nltk.data.path.append('nltk_data')
 
-os.environ["OPENAI_API_KEY"] = config('OPENAI_API_KEY')
+# os.environ["OPENAI_API_KEY"] = config('OPENAI_API_KEY')
 app = Flask(__name__)
 
     
