@@ -8,12 +8,12 @@ from langchain.docstore.document import Document
 from langchain.chains.summarize import load_summarize_chain
 from decouple import config
 
-import textwrap
-
 from web import decode_website
 
-
+import textwrap
 import os
+import nltk
+nltk.data.path.append('nltk_data')
 
 os.environ["OPENAI_API_KEY"] = config('OPENAI_API_KEY')
 app = Flask(__name__)
