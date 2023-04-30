@@ -9,3 +9,5 @@ selenium
 unstructured
 python-decouple
 nltk
+python-magic
+python-dotenv

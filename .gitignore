@@ -1,2 +1,5 @@
 .env
 Procfile
+AWS*
+__pycache__/
+*.docx
