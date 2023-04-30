@@ -4,7 +4,7 @@ from urllib.parse import unquote
 from decouple import config
 
 from web import decode_website
-from doc import decoded_doc
+# from doc import decoded_doc
 from summary import summarize_webpage
 
 import os
